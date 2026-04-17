@@ -436,7 +436,7 @@ export default function App() {
                       {showListAnswers ? 'ẨN ĐÁP ÁN' : 'HIỆN ĐÁP ÁN'}
                     </button>
                   </div>
-                  <div className="space-y-3">
+                  <div className="space-y-3 max-h-[400px] overflow-y-auto pr-2 px-1 py-1 custom-scrollbar">
                     {questions.length > 0 ? (
                       questions.map((q, idx) => (
                       <div key={q.id} className="bg-white p-3 rounded-2xl shadow-sm flex items-center justify-between group animate-in slide-in-from-left duration-300">
