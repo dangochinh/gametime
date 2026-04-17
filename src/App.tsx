@@ -73,7 +73,44 @@ const DEFAULT_QUESTIONS: Question[] = [
     "quizId": "n33ozzXdSj0",
     "singUrl": "https://www.youtube.com/watch?v=n33ozzXdSj0",
     "startTime": "65"
+  },
+  {
+    "id": "q7",
+    "question": "Câu 7: Giai điệu sôi động này là của bài hát nào?",
+    "answer": "Em của ngày hôm qua",
+    "quizUrl": "https://www.youtube.com/watch?v=a5N2jCjzE_Q",
+    "quizId": "a5N2jCjzE_Q",
+    "singUrl": "https://www.youtube.com/watch?v=a5N2jCjzE_Q",
+    "startTime": "60"
+  },
+  {
+    "id": "q8",
+    "question": "Câu 8: Một bản hit cực kỳ bùng nổ! Tên bài hát là?",
+    "answer": "Bay",
+    "quizUrl": "https://www.youtube.com/watch?v=79s8gN6EVeg",
+    "quizId": "79s8gN6EVeg",
+    "singUrl": "https://www.youtube.com/watch?v=79s8gN6EVeg",
+    "startTime": "45"
+  },
+  {
+    "id": "q9",
+    "question": "Câu 9: Giai điệu vui tươi này khiến ai cũng muốn nhún nhảy. Đây là bài gì?",
+    "answer": "Khúc nhạc vui",
+    "quizUrl": "https://www.youtube.com/watch?v=MMvcr3Qhcxs",
+    "quizId": "MMvcr3Qhcxs",
+    "singUrl": "https://www.youtube.com/watch?v=MMvcr3Qhcxs",
+    "startTime": "55"
+  },
+  {
+    "id": "q10",
+    "question": "Câu 10: Một bài hát rất bắt tai! Bạn có biết tên bài này không?",
+    "answer": "Catch me if you can",
+    "quizUrl": "https://www.youtube.com/watch?v=iy8YBm0LBuY",
+    "quizId": "iy8YBm0LBuY",
+    "singUrl": "https://www.youtube.com/watch?v=iy8YBm0LBuY",
+    "startTime": "40"
   }
+
 ];
 
 interface Question {
@@ -424,7 +461,7 @@ export default function App() {
                     ))
                   ) : (
                     <div className="bg-white/50 border-2 border-dashed border-slate-200 p-8 rounded-2xl text-center">
-                      <p className="text-slate-400 text-sm font-medium">Chưa có câu hỏi nào. <br/> Bấm "RESET MẶC ĐỊNH" để lấy 6 câu hỏi mẫu!</p>
+                      <p className="text-slate-400 text-sm font-medium">Chưa có câu hỏi nào. <br/> Bấm "RESET MẶC ĐỊNH" để lấy 10 câu hỏi mẫu!</p>
                     </div>
                   )}
                   </div>
