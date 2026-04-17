@@ -1,0 +1,6 @@
+{
+  "name": "Game Đoán Bài Hát",
+  "description": "Ứng dụng trò chơi đoán bài hát qua video Youtube, hỗ trợ cài đặt câu hỏi và màn hình chơi game tương tác.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
